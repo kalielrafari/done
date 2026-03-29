@@ -8,8 +8,8 @@ async function bootstrap() {
   // Configuração de CORS ajustada para testes locais e produção
   app.enableCors({
     origin: [
-      'https://salvemariaclara.org',
-      'https://www.salvemariaclara.org',
+      'https://ajudemariaclara.org',
+      'https://ajudemariaclara.org',
       'http://localhost:3000', // Adicione a porta do seu front local
       'http://localhost:3001', // Adicione a porta do seu front local
       'http://127.0.0.1:3000',
